@@ -90,7 +90,7 @@
 			children = (
 				56CAA9FB2CD22D3400D245CD /* View */,
 				56CAA9EA2CD1F6EF00D245CD /* AppDelegate */,
-				56CAA9EB2CD1F83400D245CD /* Modele */,
+				56CAA9EB2CD1F83400D245CD /* Module */,
 				56CAA9DA2CD1F6E500D245CD /* ViewController.swift */,
 				56CAA9DC2CD1F6E500D245CD /* Main.storyboard */,
 				56CAA9DF2CD1F6E600D245CD /* Assets.xcassets */,
@@ -109,13 +109,13 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		56CAA9EB2CD1F83400D245CD /* Modele */ = {
+		56CAA9EB2CD1F83400D245CD /* Module */ = {
 			isa = PBXGroup;
 			children = (
 				5611C3522CD295F800AC0FCE /* tracking2 */,
 				56CAA9EC2CD1F83C00D245CD /* tracking1 */,
 			);
-			path = Modele;
+			path = Module;
 			sourceTree = "<group>";
 		};
 		56CAA9EC2CD1F83C00D245CD /* tracking1 */ = {
