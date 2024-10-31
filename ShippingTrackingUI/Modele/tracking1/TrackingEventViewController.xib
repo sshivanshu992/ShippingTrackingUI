@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TrackingEventViewController" customModule="ShippingTrackingUI" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="O5d-ww-Bnu" id="Xc5-1C-gfh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="O5d-ww-Bnu">
+                    <rect key="frame" x="0.0" y="102" width="393" height="750"/>
+                    <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="0.089403973509933773" colorSpace="custom" customColorSpace="sRGB"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aR1-LB-QgU">
+                    <rect key="frame" x="301" y="59" width="77" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Reload"/>
+                    <connections>
+                        <action selector="reloadTableViewButtionAction:" destination="-1" eventType="touchUpInside" id="kJK-CC-gJG"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="O5d-ww-Bnu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="2aq-dP-f4W"/>
+                <constraint firstItem="O5d-ww-Bnu" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="4Vy-Uz-rZ8"/>
+                <constraint firstItem="O5d-ww-Bnu" firstAttribute="top" secondItem="aR1-LB-QgU" secondAttribute="bottom" constant="8" id="HwH-tY-0uq"/>
+                <constraint firstAttribute="bottom" secondItem="O5d-ww-Bnu" secondAttribute="bottom" id="OH4-ul-YlC"/>
+                <constraint firstItem="aR1-LB-QgU" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="dcZ-HP-RJd"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aR1-LB-QgU" secondAttribute="trailing" constant="15" id="hPz-G6-JuQ"/>
+            </constraints>
+            <point key="canvasLocation" x="32.824427480916029" y="-11.267605633802818"/>
+        </view>
+    </objects>
+</document>
